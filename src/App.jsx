@@ -275,10 +275,6 @@ function App() {
             <motion.div
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.9 }}
-              // onClick={() => {
-                //   window.open("https://www.buymeacoffee.com/adampatricX");
-                // }}
-                // className="link"
             >
               <img className="githubLogo" src={coffee} alt="" />
               Make by Nhat ĐT 
@@ -311,11 +307,8 @@ function App() {
           volume="mute"
           url={video}
         />
-       
       </div>
       <div>
-
-   
       </div>
     </div>
   );
