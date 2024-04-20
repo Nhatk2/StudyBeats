@@ -54,8 +54,8 @@ const CountdownTimer = () => {
           <h2>{Math.floor(timeLeft / 60)}:{("0" + (timeLeft % 60)).slice(-2)}</h2>     
         </div>
         <div className="controls">
-          <button style={{width:'2rem' , height:'2rem' , marginRight:'10px'}} onClick={startTimer}><i class="fa-solid fa-play"></i></button>
-          <button style={{width:'2rem' , height:'2rem'}} onClick={stopTimer}><i class="fa-solid fa-pause"></i></button>
+          {/* <button style={{width:'2rem' , height:'2rem' , marginRight:'10px'}} onClick={startTimer}><i class="fa-solid fa-play"></i></button>
+          <button style={{width:'2rem' , height:'2rem'}} onClick={stopTimer}><i class="fa-solid fa-pause"></i></button> */}
         </div>
       </div>
       <p className="btn">{isBreakTime ? "Break Time" : "Focus Time"}</p>

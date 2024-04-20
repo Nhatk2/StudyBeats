@@ -38,7 +38,7 @@ html, body {
   justify-content: center;
   align-items: center;
   z-index: 100000000000000000;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   transform: translateY(-8rem);
 }
 .radioStationsContainer1{

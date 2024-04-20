@@ -47,7 +47,7 @@ const AdditionSettings = (props) => {
 
   return (
     <div className="infoContainer">
-      <CountdownTimer/>
+      {/* <CountdownTimer/> */}
       <div className="songName">
         <motion.div
           animate={{ x: transitionValue }}
